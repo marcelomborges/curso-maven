@@ -18,4 +18,10 @@ public class Produto {
 	public double getPreco() {
 		return preco;
 	}
+
+
+	public double getPrecoComImposto() {
+		// TODO Auto-generated method stub
+		return preco * 1.25;
+	}
 }
